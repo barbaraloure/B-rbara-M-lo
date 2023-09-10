@@ -11,7 +11,7 @@
    --surface-color: rgba(2255, 255, 255, 0.05);
    --surface-color-hover: rgba(0, 0, 0, 0.02);
    --highlight-color: rgba(255, 255, 255, 0.2);
-   --switch-bg-url: url(./assets/moon-stars.svg)
+   --switch-bg-url: url(./assets/moon-stars.svg);
 }
 
 .light {
@@ -36,10 +36,10 @@ background: var(--bg-url) no-repeat top center/cover;
  #container {
     width: 360px;
     margin: 56px auto 0px;
-    li
+
  }
 /*profile*/
- #profile{
+ #profile {
 text-align: center;
 padding: 24px;
  }
@@ -47,6 +47,7 @@ padding: 24px;
 
  #profile img {
     width: 112px;
+    border-radius: 50%;
  }
 
  #profile p {
